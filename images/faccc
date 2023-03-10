@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang= "en"> 
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE-edge">
+     <meta name="viewport" content="width-device-width,initial-scale-1.0">
+     <title>Images</title>
+     <link rel="stylesheet" href=".stylesheet.css">
+</head>
+<body> 
+    <pictures> 
+        <source scrset="images/landa-face.jpg" media="(max-width: 425px)">
+      <source scrset="images/landa-shoulder.jpg" media="(max-width: 900px)">
+      <img src="images/landa-full.jpg"alt="person wearing a black suit">
+    </pictures>
+
+</html>

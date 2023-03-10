@@ -4,18 +4,21 @@
     <title>My first web page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Digital Resume</title>
   </head>
   <body>
-    <aside>
-    <div class="container">
-      <div class="left_side">
-      <div class="profileText">
-      <div class="imageBx">
-      <img src="images/Milani.jpg">
-      <h2>Milani Kukuma <br><span><p >I have enrolled at Codespace Academy for Software Develpment.</p></span></h2>
-      </div>
-      </div>
+       <div>
+        <div id="aboutPic">
+            <picture class="pic">
+              <source media="(max-width: 650px)"srcset="images/landa_face.jpg"/>
+              <source media="(max-width: 100px)"srcset="images/landa_shoulder.jpg"/> 
+              <img src="images/landa_full.jpg" alt="A lady"/>
+            </picture>
+        </div>
+        
+          <h2>Milani Kukuma <br><span><p >I have enrolled at Codespace Academy for Software Develpment.</p></span></h2>
+         
 
       <div class="contactInfo">
         <h3 class="tittle">contactInfo</h3>
@@ -34,7 +37,6 @@
           </li>
         </ul>
       </div>
-      
       <div class="Education">
         <h3 class="tittle">Education</h3>
         <ul> 
@@ -48,7 +50,6 @@
           </li>
         </ul>
       </div>
-
       <div class="Languages">
         <h3 class="tittle">Languages</h3>
         <ul> 
@@ -70,7 +71,7 @@
           </li>
         </ul>
         <h3>Contact Me</h3>
-      <form action="https://formsubmit.co/Kukumamilani62@email.com" method="POST">
+      <form action="https://formsubmit.co/Kukumamilani62@mail.com" method="POST">
         <input type="email" name="email" id="" placeholder="email here please..">
         <br>
         <select name="_subject" id="subject">
@@ -78,20 +79,16 @@
           <option value="Recruiter">Recruiter</option>
           <option value="Website Feedback">Website Feedback</option>
           <br>
-          <textarea name="message" id="text" cols="30" rows="10" placeholder="message here please (optional).."></textarea>
-          <br>
-          <input class="submit" type="submit" value="Send">
+      </form>
         </select>
       </form>
       </div>
-
-
     </div>
     </div>
-    </aside>
-
-        
-
+  
+    <div class="img-container">
+      <div class="inner-container">
+        <a class="btn" href="#"> CLICK HERE</a>
       <div class="right_side">
         <div class="about">
         <h2 class="title2 ">Profile</h2>
@@ -106,10 +103,8 @@
           tempus. Vel orci porta non pulvinar neque laoreet suspendisse.</p>
         </div>
       </div>
-
+    </div>
+    </div>
       
-</body>
-
-
-              
-  </html>
+</body>           
+</html>

@@ -5,14 +5,14 @@
     font-family: 'poppins' sans-serif ;
 }
 
-img {
+/*img {
     width: 400px;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-  }
+  }*/
 
 body 
  {
@@ -23,7 +23,7 @@ body
     min-height:100vh;
  }
 
- .container
+ /*.container
  {
     position: relative;
     width:100%;
@@ -34,7 +34,7 @@ body
     display:grid;
     grid-template-columns: 1fr 0fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0,1);
- }
+ }*/
  .container .left_side
  {
 position: relatives;
@@ -62,7 +62,7 @@ padding:40px
  width:200px;
  border-radius:50%;
  overflow:hidden;
- }*/
+ }
  .profileText .imgBx img
  {
     position: absolute;
@@ -70,7 +70,7 @@ padding:40px
     left:0;
     width:100%;
     object-fit: cover;
- }
+ }*/
 .profileText h2
 {
     color:gray;
@@ -210,4 +210,29 @@ input[type=text], select, textarea {
     padding: 0px;
   }
 
+  .ContactMe
+  {
+    color:#003147;
+    text-transform:uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
   
+  }
+
+  responsive {
+    width: 100%;
+    height: auto;
+  }
+  body, html {
+    height: 100%;
+}
+
+
+.img-container{
+background-image:url("images/landa_shoulder.jpg");
+height: 70%;
+background-position : center;
+background-repeat: no-repeat;
+background-size:cover ;
+position: relative;
+}
