@@ -1,11 +1,10 @@
-*{
-    padding:0px;
+*  { padding:20px;
     margin: 0px;
     box-sizing: border-box;
     font-family: 'poppins' sans-serif ;
 }
 
-/*img {
+/*Iimg {
     width: 400px;
     border-radius: 50%;
     display: block;
@@ -14,14 +13,20 @@
     width: 40%;
   }*/
 
-body 
+  
+/*body 
  {
+    position:fixed ;
+    top:0; left:0;bottom:0;
     background:gray;
     display :flex;
-    justify-content :center;
+    justify-content :space-between;
     align-items:center;
     min-height:100vh;
- }
+    padding: 8rem 2 rem;
+    flex-flow: column;
+
+ }*/
 
  /*.container
  {
@@ -166,14 +171,21 @@ margin-bottom: 15px;
     position: absolute;
     top:0;
     right:0;
+    left: 150px;
+    bottom: 70px;
     width:100%;
-    object-fit: cover;   
+    object-fit: cover;  
+   
+  
 }
 
 .about 
 {
     margin-left: 90px;  
     padding-right: 70px; 
+    position:center;
+    left: 150px;
+    bottom: -70px;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -230,9 +242,48 @@ input[type=text], select, textarea {
 
 .img-container{
 background-image:url("images/landa_shoulder.jpg");
-height: 70%;
+height: 60%;
 background-position : center;
 background-repeat: no-repeat;
 background-size:cover ;
 position: relative;
 }
+
+/*code for mobile devices smaller than 600px*/
+body { background-color: lightblue; }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   body { background-color:blueviolet; }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   body { background-color:navy; }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   body { background-color:Dark gray; }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   body { background-color: lightseagreen; }
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+
+
+.English{width: 90%; background-color: #04AA6D;} /* Green */
+.Isixhosa{width: 99%; background-color: #2196F3;} /* Blue */
+.Sesotho {width: 70%; background-color: #f44336;} /* Red */
+
+
